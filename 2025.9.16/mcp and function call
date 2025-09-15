@@ -393,8 +393,8 @@ print(json.dumps(result, indent=2, ensure_ascii=False))
 
 - MCP 是通用协议层的标准化约定（更偏抽象的通用），Function Call 是某大模型厂商特定的实现方式和特性（更偏具体实现）。
 - 函数调用 (Function Calling)：2023年，OpenAI等机构引入了函数调用机制，这是一个巨大的进步。开发者可以预先定义结构化的函数（如 `getWeather(location)`），模型在需要时，会输出一个标准化的JSON对象来"请求"调用这个函数，而不是模糊的自然语言指令。
-  ![function call流程图.png](../../_resources/function%20call流程图.png)
-  ![mcp调用过程.png](../../_resources/mcp调用过程.png)
+  ![function call流程图.png](function%20call流程图.png)
+  ![mcp调用过程.png](mcp调用过程.png)
 
 
 ### 概念对比表
